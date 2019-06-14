@@ -3,10 +3,10 @@ static const char *user  = "nobody";
 static const char *group = "nogroup";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT] =   "#263238",     /* after initialization */
-	[INPUT] =  "#82aaff",   /* during input */
-	[FAILED] = "#ff5370",   /* wrong password */
+	[INIT] =   "#262626",     /* after initialization */
+	[INPUT] =  "#5F87AF",   /* during input */
+	[FAILED] = "#AF5F5F",   /* wrong password */
 };
 
 /* treat a cleared input like a wrong password (color) */
-static const int failonclear = 1;
+static const int failonclear = 0;
