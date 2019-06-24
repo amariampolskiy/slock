@@ -2,7 +2,6 @@
 static const char *user  = "nobody";
 static const char *group = "nogroup";
 
-
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "#262626",   /* after initialization */
 	[INPUT] =  "#5F87AF",   /* during input */
@@ -19,4 +18,4 @@ static const char *message = "Suckless: Software that sucks less.";
 static const char *text_color = "#BCBCBC";
 
 /* text size (must be a valid size) */
-static const char *text_size = "mono";
+static const char *text_name = "*liberation mono-medium-r*16";
