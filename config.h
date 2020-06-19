@@ -12,10 +12,10 @@ static const char *colorname[NUMCOLS] = {
 static const int failonclear = 0;
 
 /* default message */
-static const char *message = "Suckless: Software that sucks less.";
+static const char * message = "Suckless: Software that sucks less.";
 
 /* text color */
-static const char *text_color = "#BCBCBC";
+static const char * text_color = "#BCBCBC";
 
 /* text size (must be a valid size) */
-static const char *text_name = "*liberation mono-medium-r*16";
+static const char * font_name = "-bitstream-terminal-medium-r-normal--18-140-100-100-c-110-iso8859-1";
